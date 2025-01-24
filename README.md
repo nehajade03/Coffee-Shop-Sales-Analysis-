@@ -10,7 +10,6 @@ This project aims to address these challenges by implementing comprehensive KPI 
 - Leverage dynamic charts, such as calendar heatmaps and sales segmentations by weekdays, weekends, and store locations, to uncover patterns and enhance decision-making.
 
  # **Project Objective:**
-
 The objective of this project is to design and develop a comprehensive data analytics solution that enables businesses to:
  - Analyze and track monthly key performance indicators (KPIs) such as total sales, total orders, and total quantity sold.
  - Identify trends and month-over-month changes to support data-driven decision-making.
@@ -18,7 +17,6 @@ The objective of this project is to design and develop a comprehensive data anal
  -  Deliver actionable insights to optimize business strategies and improve overall performance.
 
 # **Overview:**
-
 This project focuses on creating an end-to-end data analytics dashboard that empowers organizations to gain a deeper understanding of their performance metrics. The dashboard will provide:
 
 **KPI Analysis:**
