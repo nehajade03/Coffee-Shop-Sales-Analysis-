@@ -27,7 +27,7 @@ SELECT ROUND(SUM(unit_price * transaction_qty)) as Total_Sales
 FROM coffee_shop_sales 
 WHERE MONTH(transaction_date) = 5; -- for month of (CM-May)
  
--- TOTAL SALES KPI - MOM DIFFERENCE AND MOM GROWTH 
+-- TOTAL SALES  - MOM DIFFERENCE AND MOM GROWTH 
 SELECT 
     MONTH(transaction_date) AS month,
     ROUND(SUM(unit_price * transaction_qty)) AS total_sales,
@@ -48,7 +48,7 @@ SELECT COUNT(transaction_id) as Total_Orders
 FROM coffee_shop_sales 
 WHERE MONTH (transaction_date)= 5; -- for month of (CM-May)
  
--- TOTAL ORDERS KPI - MOM DIFFERENCE AND MOM GROWTH
+-- TOTAL ORDERS  - MOM DIFFERENCE AND MOM GROWTH
 SELECT 
     MONTH(transaction_date) AS month,
     ROUND(COUNT(transaction_id)) AS total_orders,
@@ -70,7 +70,7 @@ FROM coffee_shop_sales
 WHERE MONTH(transaction_date) = 5; -- for month of (CM-May)
  
 
--- TOTAL QUANTITY SOLD KPI - MOM DIFFERENCE AND MOM GROWTH 
+-- TOTAL QUANTITY SOLD  - MOM DIFFERENCE AND MOM GROWTH 
 SELECT 
     MONTH(transaction_date) AS month,
     ROUND(SUM(transaction_qty)) AS total_quantity_sold,
@@ -87,9 +87,6 @@ ORDER BY
     MONTH(transaction_date);
 
  
-
-
-
 -- CALENDAR TABLE – DAILY SALES, QUANTITY and TOTAL ORDERS
 SELECT
     SUM(unit_price * transaction_qty) AS total_sales,
