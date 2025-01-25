@@ -27,7 +27,6 @@ SELECT ROUND(SUM(unit_price * transaction_qty)) as Total_Sales
 FROM coffee_shop_sales 
 WHERE MONTH(transaction_date) = 5; -- for month of (CM-May)
  
-
 -- TOTAL SALES KPI - MOM DIFFERENCE AND MOM GROWTH 
 SELECT 
     MONTH(transaction_date) AS month,
@@ -44,20 +43,11 @@ GROUP BY
 ORDER BY 
     MONTH(transaction_date);
 
- 
-
-
-
-
-
-
-
 -- TOTAL ORDERS
 SELECT COUNT(transaction_id) as Total_Orders
 FROM coffee_shop_sales 
 WHERE MONTH (transaction_date)= 5; -- for month of (CM-May)
  
-
 -- TOTAL ORDERS KPI - MOM DIFFERENCE AND MOM GROWTH
 SELECT 
     MONTH(transaction_date) AS month,
@@ -74,11 +64,7 @@ GROUP BY
 ORDER BY 
     MONTH(transaction_date);
 
- 
-
-
-
--- TOTAL QUANTITY SOLD
+  -- TOTAL QUANTITY SOLD
 SELECT SUM(transaction_qty) as Total_Quantity_Sold
 FROM coffee_shop_sales 
 WHERE MONTH(transaction_date) = 5; -- for month of (CM-May)
@@ -143,7 +129,6 @@ ORDER BY
     DAY(transaction_date);
 
                            
-
 -- COMPARING DAILY SALES WITH AVERAGE SALES – IF GREATER THAN “ABOVE AVERAGE” and LESSER THAN “BELOW AVERAGE”
 SELECT 
     day_of_month,
@@ -169,17 +154,6 @@ ORDER BY
     day_of_month;
 
              
-
-
-
-
-
-
-
-
-
-
-
 -- SALES BY WEEKDAY / WEEKEND:
 SELECT 
     CASE 
@@ -197,19 +171,7 @@ GROUP BY
         ELSE 'Weekdays'
     END;
 
- 
-
-
-
-
-
-
-
-
-
-
-
--- SALES BY STORE LOCATION
+ -- SALES BY STORE LOCATION
 SELECT 
 	store_location,
 	SUM(unit_price * transaction_qty) as Total_Sales
@@ -243,18 +205,6 @@ ORDER BY SUM(unit_price * transaction_qty) DESC
 LIMIT 10;
 
  
-
-
-
-
-
-
-
-
-
-
-
-
 -- SALES BY DAY | HOUR
 SELECT 
     ROUND(SUM(unit_price * transaction_qty)) AS Total_Sales,
@@ -268,7 +218,6 @@ WHERE
     AND MONTH(transaction_date) = 5; -- Filter for May (month number 5)
 
  
-
 -- TO GET SALES FROM MONDAY TO SUNDAY FOR MONTH OF MAY
 SELECT 
     CASE 
@@ -296,9 +245,7 @@ GROUP BY
         ELSE 'Sunday'
     END;
 
- 
-
--- TO GET SALES FOR ALL HOURS FOR MONTH OF MAY
+ -- TO GET SALES FOR ALL HOURS FOR MONTH OF MAY
 SELECT 
     HOUR(transaction_time) AS Hour_of_Day,
     ROUND(SUM(unit_price * transaction_qty)) AS Total_Sales
