@@ -59,7 +59,6 @@ Dataset Size
 
 In this project, I designed and implemented a data model in Power BI that enhances sales analysis through the integration of a Date Table. This involved creating a custom Date Table and building relationships between it and the transactional data for advanced time-based insights.
 Steps Taken:
-
 1.	Creation of Date Table:
 o	I manually created a new Date Table to ensure comprehensive time-based analysis. The Date Table includes the following columns:
 -Year
@@ -121,7 +120,6 @@ Dashboard
 # **Interactive Features (Tooltip Section)**
 
 Tooltips are a powerful interactive feature in the dashboard that significantly enhance the user experience. By hovering over visual elements, users can access detailed insights without navigating away from the main dashboard view.
-
 •	Enhancing User Experience: Tooltips provide users with instant, context-specific details like daily or hourly breakdowns, saving time and reducing the need for multiple clicks.
 
 ![image](https://github.com/user-attachments/assets/7fa3dd05-0ffc-4f12-b1b2-545ce26f07c1)
@@ -132,77 +130,54 @@ Tooltips are a powerful interactive feature in the dashboard that significantly 
  # **Insights**
  
 **Overall Sales Performance:**
-   
 - Total sales for May 2023: $157K, which represents a 31.8% increase compared to last month.
-
 - Both total orders (33,527) and total quantity sold (48,233) show a 32.3% improvement vs. last month, indicating strong growth.
 
 **Top Performing Product Categories:**
-   
  - Coffee contributes the most sales at $60.36K, followed by Tea ($44.54K), with both showing a significant increase (+31.9% and +33.5%).
-
  - Bakery and Drinking Chocolate also show impressive growth (both over +30%).
 
 **Product Type Trends:**
-   
  - Barista Espresso ($20.42K) and Brewed Chai Tea ($17.43K) lead among individual product types.
-
  - Hot Chocolate ($16.32K) and Premium brewed coffee ($8.74K) also exhibit strong performance.
 
 **Sales by Weekday/Weekend:**
-
 - Majority of sales occurred on weekdays (74.19%), suggesting weekday-focused customer engagement.
 
 **Store Location Analysis:**
-   
- - Hell’s Kitchen ($52.60K) is the top-performing store, showing a 30.5% sales growth compared to last month.
-
- - Astoria and Lower Manhattan also performed well, with growth exceeding 32%.
+- Hell’s Kitchen ($52.60K) is the top-performing store, showing a 30.5% sales growth compared to last month.
+- Astoria and Lower Manhattan also performed well, with growth exceeding 32%.
 
 **Sales by Hour/Day:**
-    
 - Peak sales hours occur in the morning and early afternoon (9 AM–2 PM), which aligns with typical coffee and snack purchase times.
-
 - Sales are consistent throughout the week, with slightly lower activity on Sundays.
 
 **Sales Trends:**
-
- - Daily sales average around $5,056, with no drastic fluctuations but minor dips on weekends.
+- Daily sales average around $5,056, with no drastic fluctuations but minor dips on weekends.
 
 # **Recommendations**
 
 **Focus on High-Performing Products:**
-   
 - Increase promotion of top products like Coffee, Tea, Barista Espresso, and Hot Chocolate through discounts, bundles, or loyalty programs to maintain momentum.
-
 - Introduce seasonal or limited-time offers in the Bakery category to boost sales further.
 
 **Boost Weekend Sales:**
-   
 - Develop weekend-specific promotions (e.g., "Weekend Happy Hours" or special combos) to drive more traffic during this slower period.
-
 - Partner with local events to attract customers on weekends.
 
 **Optimize Store Operations:**
-   
 - Hell’s Kitchen is a strong performer, but other locations like Astoria and Lower Manhattan show equally promising growth. Consider replicating successful strategies from Hell’s Kitchen in these areas.
-
 - Staff peak hours (7AM– 12 PM) with additional resources to handle high demand efficiently.
 
 **Targeted Marketing Campaigns:**
-
 - Since weekdays drive most sales, focus digital advertising and email campaigns during those days.
-
 - Utilize customer insights (from loyalty programs or surveys) to tailor product recommendations and upsell strategies.
 
 **Introduce Evening Offerings:**
-   
 - With lower sales during evening hours, consider introducing special evening-themed beverages or snacks, such as herbal teas, desserts, or discounted coffee.
 
 **Refine Data Analysis:**
-
 - Drill down into customer preferences by combining product sales with customer demographics.
-
 - Analyze specific reasons for the Sunday sales dip and target this day with a unique promotion (e.g., family discounts or kids’ menus).
  
 
