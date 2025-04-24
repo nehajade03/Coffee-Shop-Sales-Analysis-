@@ -111,9 +111,10 @@ Return
 _sign_trend & " " & _sign & FORMAT(mom, "#0.0%")
 
 # **Data Visualizations** 
-[Live Dashboard](https://www.novypro.com/create_project/coffee-shop-sales-11)
+[Live Dashboard](https://www.novypro.com/profile_about/neha--jade?Popup=memberProject&Data=1737647449090x483840063660778700)
 
-Dashboard
+
+DashBoard
 
 ![image](https://github.com/user-attachments/assets/f6733e0c-8ff0-4824-b829-2e7a49997a87)
 
