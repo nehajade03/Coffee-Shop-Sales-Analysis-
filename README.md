@@ -1,5 +1,5 @@
 # Coffee-Shop-Sales-Analysis
-
+(SQL + Power BI)
 # **Problem Statement**
 Organizations often struggle to analyze and monitor key business metrics such as sales, orders, and quantities sold over time. Without effective tools, it becomes challenging to track month-over-month trends, identify performance variations, and derive actionable insights. Additionally, understanding sales patterns across weekdays, weekends, and store locations requires dynamic and interactive visualizations to support data-driven decision-making. The lack of these capabilities hinders efforts to optimize performance and respond proactively to changing business needs.
 
