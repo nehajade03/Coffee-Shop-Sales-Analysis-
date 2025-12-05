@@ -23,28 +23,28 @@ This project focuses on creating an end-to-end data analytics dashboard that emp
 
 
 
-**KPI Analysis:**
+# **KPI Analysis:**
 - Calculation of total sales, orders, and quantity sold for each month.
 - Month-over-month comparisons to highlight increases or decreases in metrics.
 - Detailed insights into changes between the selected month and the previous month.
-## 📊 SQL Analysis
 
-The complete SQL analysis used in this project is provided in the file below.  
-It includes queries for:
+# **🛢️ SQL Analysis**
 
-- Key Performance Indicators (KPIs)
-- Monthly trends
-- Product and category performance
-- Store-wise sales analysis
-- Weekday vs weekend comparison
-- Hourly demand analysis
-- Month-over-month growth
+All data cleaning, preprocessing, KPI calculations, and analytical queries were performed using SQL.
+
+The SQL scripts include:
+
+- Data type corrections (date & time)
+- Data cleaning (column fixes, renaming)
+- KPI calculations (Total Sales, Orders, Quantity)
+- MoM Growth calculations
+- Daily, hourly, weekday/weekend sales analysis
+- Store-wise & product-wise sales breakdown
+- Top 10 product performance queries
 
 📄 **SQL File:**  
 👉 [Click here to view the SQL Analysis](https://github.com/nehajade03/Coffee-Shop-Sales-Analysis-/blob/main/Coffee%20Shop%20Sales%20Analysis%20BY%20SQL.sql)
 
-🖥️ **Presentation (PPT):**  
-👉 [Click here to view the Project Presentation](./Coffee_Shop_Sales_Presentation.pptx)
 
 ---
 **Interactive Visualizations:**
