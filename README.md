@@ -30,17 +30,27 @@ This project focuses on creating an end-to-end data analytics dashboard that emp
 
 # **🛢️ SQL Analysis**
 
-All data cleaning, preprocessing, KPI calculations, and analytical queries were performed using SQL.
+## 🔹 SQL Analysis
 
-The SQL scripts include:
+All data cleaning, preprocessing, KPI calculations, and analytical queries were performed using SQL.  
 
-- Data type corrections (date & time)
-- Data cleaning (column fixes, renaming)
-- KPI calculations (Total Sales, Orders, Quantity)
-- MoM Growth calculations
-- Daily, hourly, weekday/weekend sales analysis
-- Store-wise & product-wise sales breakdown
-- Top 10 product performance queries
+### Key Operations
+- **Data type corrections**: Converted `transaction_date` and `transaction_time` to proper DATE and TIME formats.  
+- **Data cleaning**: Fixed column names and removed inconsistencies.  
+- **KPI calculations**: Total Sales, Total Orders, Total Quantity.  
+- **Month-over-Month (MoM) growth**: Calculated using window functions.  
+- **Time-based analysis**: Daily, hourly, and weekday/weekend sales.  
+- **Store-wise and product-wise breakdowns**: Including top 10 product performance.
+
+### SQL Techniques Used
+- **CASE statements** – Categorize sales, weekdays/weekends, above/below average days.  
+- **Window functions (LAG, AVG)** – Month-over-month growth, average daily sales.  
+- **Aggregation functions (SUM, COUNT, ROUND)** – Total sales, total orders, quantities.  
+- **Date and time functions (DAY, MONTH, HOUR, DAYOFWEEK)** – Time-based analysis.  
+- **Filtering using WHERE** – Focused on specific months, days, or hours.  
+- **LIMIT** – Top-N product analysis.  
+- **Subqueries** – For intermediate calculations like average daily sales comparison.
+
 
 📄 **SQL File:**  
 👉 [Click here to view the SQL Analysis](https://github.com/nehajade03/Coffee-Shop-Sales-Analysis-/blob/main/Coffee%20Shop%20Sales%20Analysis%20BY%20SQL.sql)
