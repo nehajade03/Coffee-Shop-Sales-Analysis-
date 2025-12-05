@@ -1,7 +1,17 @@
 # Coffee-Shop-Sales-Analysis
-(SQL + Power BI)
 # **Problem Statement**
-Organizations often struggle to analyze and monitor key business metrics such as sales, orders, and quantities sold over time. Without effective tools, it becomes challenging to track month-over-month trends, identify performance variations, and derive actionable insights. Additionally, understanding sales patterns across weekdays, weekends, and store locations requires dynamic and interactive visualizations to support data-driven decision-making. The lack of these capabilities hinders efforts to optimize performance and respond proactively to changing business needs.
+Businesses often struggle to analyze key sales metrics such as total revenue, order counts, and quantities sold over time. Without proper analytical tools, it becomes difficult to:
+
+- Track month-over-month performance  
+- Identify trends across days, weeks, and store locations  
+- Perform deep-dive analysis on product, store, and time-based performance  
+- Visualize sales behavior dynamically  
+- Make data-driven decisions  
+
+To address these challenges, this project uses:
+
+- **SQL** for data cleaning, transformation, and in-depth analytical querying (KPIs, product trends, store performance, time-based analysis).
+- **Power BI** for interactive dashboards, visual insights, and advanced DAX-driven calculations.
 
  # **Project Objective:**
 The objective of this project is to design and develop a comprehensive data analytics solution that enables businesses to:
