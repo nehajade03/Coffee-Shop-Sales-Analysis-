@@ -1,4 +1,4 @@
-# Coffee-Shop-Sales-Analysis
+# Coffee Shop Sales Optimization with SQL & Power BI
 # **Problem Statement**
 Businesses often struggle to analyze key sales metrics such as total revenue, order counts, and quantities sold over time. Without proper analytical tools, it becomes difficult to:
 
