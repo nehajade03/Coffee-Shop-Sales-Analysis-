@@ -21,11 +21,32 @@ The objective of this project is to design and develop a comprehensive data anal
  -  Deliver actionable insights to optimize business strategies and improve overall performance.
 This project focuses on creating an end-to-end data analytics dashboard that empowers organizations to gain a deeper understanding of their performance metrics. The dashboard will provide:
 
+
+
 **KPI Analysis:**
 - Calculation of total sales, orders, and quantity sold for each month.
 - Month-over-month comparisons to highlight increases or decreases in metrics.
 - Detailed insights into changes between the selected month and the previous month.
+## 📊 SQL Analysis
 
+The complete SQL analysis used in this project is provided in the file below.  
+It includes queries for:
+
+- Key Performance Indicators (KPIs)
+- Monthly trends
+- Product and category performance
+- Store-wise sales analysis
+- Weekday vs weekend comparison
+- Hourly demand analysis
+- Month-over-month growth
+
+📄 **SQL File:**  
+👉 [Click here to view the SQL Analysis](https://github.com/nehajade03/Coffee-Shop-Sales-Analysis-/blob/main/Coffee%20Shop%20Sales%20Analysis%20BY%20SQL.sql)
+
+🖥️ **Presentation (PPT):**  
+👉 [Click here to view the Project Presentation](./Coffee_Shop_Sales_Presentation.pptx)
+
+---
 **Interactive Visualizations:**
 - A calendar heatmap that dynamically adjusts based on the selected month, highlighting sales trends by day with tooltips displaying detailed metrics (sales, orders, and quantity).
   
